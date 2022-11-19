@@ -1,0 +1,39 @@
+*{
+    font-size: 1.5rem;
+}
+
+body{
+    background-color: bisque;
+}
+.anasayfa{
+ background-color: aqua;   
+}
+p.anasayfa{
+    background-color: rgb(240, 125, 17);
+}
+#ana-orta{
+    background-color: rgb(255, 254, 240);
+}
+#iletisim-orta{
+    background-color: aqua;
+}
+#personel-orta{
+    background-color: palevioletred;
+}
+.iletisim{
+    background-color: aqua;
+    
+}
+.personeller{
+    background-color: chocolate;
+}
+p{
+    color: palevioletred;
+    text-align: center;
+    font-size: 15px;
+}
+
+ul{
+    text-align: left;
+}
+

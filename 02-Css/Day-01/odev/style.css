@@ -1,0 +1,34 @@
+*{
+    background-color: rgb(222, 184, 135);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+div{
+    background-color: rgb(220, 20, 60);
+}
+h2 {
+    text-align: right;
+}
+ul{
+    color:rgb(165, 42, 42);
+background-color: rgb(95, 158, 160);}
+li{
+background-color: rgb(95, 158, 160);
+}
+.genislik{
+    width: 180px;
+    height: 70px;
+}
+.column1{
+    background-color: rgb(247, 7, 27);
+}
+.column2{
+    background-color: rgb(16, 95, 101);
+}
+.column3{
+    background-color: rgb(113, 95, 160);
+}

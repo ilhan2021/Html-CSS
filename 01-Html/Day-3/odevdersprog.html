@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <!-- 
+Ödev:
+Toplam 7sutun,7satır
+a.İlk satırdaki ilk hücre yatayda 7lik yer kaplıyor.(colspan)
+b.İkinci satırdaki ikinci hücre var ama içi boş.
+c.Üçüncü satırdaki ilk hücre dikeyde 5lik yer kaplıyor(rowspan)
+d.Beşinci satırdaki ikinci hücre yatayda 6lık yer kaplıyor.(colspan)
+--İlk tr'nin içinde 1 tane td olacak ve colspan= "7" diyeceğiz.
+--İkinci tr'nin içinde 7 tane td olacak ikinci td boş olacak.
+--Üçüncü tr'nin içinde 7 tane td olacak ama ilk td'ye rowspan= "5" diyeceğiz.
+--Bundan sonraki tr'lerin içinde 6 td olacak(üstteki 5lik kapladığı için)
+--Dördüncü  tr'de 6 td olacak.
+--Beşinci  tr'nin içinde 1 tane td olacak ve colspan="6"diyeceğiz.
+--Altıncı ve yedinci tr'nin içinde 6 td olacak.
+     -->
+<body>
+    <table border="1">
+        <thead>
+            <th colspan="7" align="center"> Zaman Çizelgesi</th>
+        </thead>
+        <tbody>
+        <tr>
+            <th >Gunler</th>
+            <td></td>
+            <th>Pazartesi</th>
+            <th>Sali</th>
+            <th>Carsamba</th>
+            <th>Persembe</th>
+            <th>Cuma</th>
+           
+        </tr>
+        <tr>
+            <th rowspan="5">Saatler</th>
+            <th>1</th>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Fen</td>
+            
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Turkce</td>
+            <td>Mat</td>
+            <td>Fen</td>
+            
+            
+        </tr>
+        <tr>
+            <td colspan="6" style="text-align: center">DİNLENME</td>
+            
+         
+            
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Sosyal</td>
+            <td>Muzik</td>
+            <td>Sosyal</td>
+            <td>Fen</td>
+            <td>Din</td>
+          
+           
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>Sosyal</td>
+            <td>Beden</td>
+            <td>Sosyal</td>
+            <td>Fen</td>
+            <td>Din</td>
+            
+          
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
