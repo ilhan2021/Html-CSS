@@ -30,4 +30,5 @@ input[type="checkbox"]:checked{
 
 .price-list tr:nth-child(even) td:last-child{
     background-color: chocolate;
+    
 }

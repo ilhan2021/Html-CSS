@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    .menu li {
+      color: red
+    }
+
+    .menu>ul>li {
+      color: blue;
+    }
+
+    .menu+article {
+      color: green;
+    }
+
+    .menu ~ article {
+      background-color: aqua;
+    }
+    .menu article{
+      color: pink;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="menu">
+    <ul>
+      <li>Şubat</li>
+      <li>Mart
+      <li>
+      <li>Ocak
+      <li>
+      <li>Nisan <ul>
+          <li>Pazartesi</li>
+          <li>Salı</li>
+          <li>Çarşamba</li>
+        </ul>
+      </li>
+      <li>Mayıs</li>
+      <li>Haziran</li>
+    </ul>
+  </nav>
+  <article>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat aspernatur voluptates excepturi nostrum,
+    asperiores neque laudantium. Ad, provident. Harum, commodi! Expedita vitae illo autem perferendis nisi aliquid,
+    officia quas non?
+  </article>
+  <article>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat aspernatur voluptates excepturi nostrum,
+    asperiores neque laudantium. Ad, provident. Harum, commodi! Expedita vitae illo autem perferendis nisi aliquid,
+    officia quas non?
+  </article>
+  <article>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nostrum fuga eius enim, quod alias aperiam
+    illum eum nulla amet doloremque sed maxime in consectetur doloribus, earum repellendus perferendis animi.
+  </article>
+  <div>TEST1</div>
+  <article>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nostrum fuga eius enim, quod alias aperiam
+    illum eum nulla amet doloremque sed maxime in consectetur doloribus, earum repellendus perferendis animi.
+  </article>
+  <div>
+    <article>TEST2 </article>
+  </div>
+</body>
+
+</html>
