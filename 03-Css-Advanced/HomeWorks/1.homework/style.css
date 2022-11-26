@@ -1,0 +1,51 @@
+.menu ul{
+    list-style-type: none;  
+    text-align: center;
+} 
+.menu li{
+    display: inline-block;         
+    background-color: #FF0063;
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+
+.menu li:hover{  
+color: black;
+background-color: yellow;
+}  
+
+.menu a{
+    display: inline-block;
+    width:100% ;
+    color: #EAF6F6;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: black;
+    text-decoration: none;
+} .menu ul{
+    list-style-type: none;  
+    text-align: center;
+} 
+.menu li{
+    display: inline-block;         
+    background-color: #FF0063;
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+
+.menu li:hover{  
+color: black;
+background-color: yellow;
+}  
+
+.menu a{
+    display: inline-block;
+    width:100% ;
+    color: #EAF6F6;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: black;
+    text-decoration: none;
+}
