@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .alt-menu {
+            width: 10%;
+            position: relative;
+            float: left;
+        }
+
+        #acilirmenu {
+            display: none;
+            /* Chech boxumuzu buradan görünmez kılıyoruz. */
+        }
+
+        #menum {
+            display: none;
+            position: absolute;
+            width: 100%;
+        }
+
+        #acilirmenu:checked+#menum {
+            display: block;
+        }
+
+        /* */
+        #acilirmenu2 {
+            display: none;
+            /* Chech boxumuzu buradan görünmez kılıyoruz. */
+        }
+
+        #menum2 {
+            display: none;
+        }
+
+        #acilirmenu2:checked+#menum2 {
+            display: block;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <div class="mother">
+        <div class="alt-menu alt-1"><i class="fa-solid fa-bars" id="acilirmenu"></i>
+            <label for="acilirmenu"></label>
+            <div id="menum">Tester</div>
+        </div>
+        <div class="alt-menu alt-2">
+            <label for="acilirmenu2">Buraya Tıkla</label><input type="checkbox" id="acilirmenu2" /></label>
+            <div id="menum2">Tester</div>
+        </div>
+    </div>
+</body>
+
+</html>
