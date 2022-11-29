@@ -1,60 +1,57 @@
-
-        
-html,
 body {
     height: 100%;
     width: 100%;
     background-color: rgb(235, 235, 235);
 }
-.mother{
+
+.grid {
     display: inline-block;
-    padding: 1px 3px 1px 3px;
-    background-color: rgb(63, 63, 63);
-    margin-bottom: 10px;
+    background-color: rgb(113, 111, 111);
+    color: white;
+    margin: 0;
+    padding: 0px 4px;
 }
 
-.grid{   
-    color: white;
-    margin:0;    
+.inp {
+    display: none;
 }
-.inp{
-   display: none;
+ul{
+    display: none;
 }
-.inp:checked + .menu{
+
+.inp:checked + ul {
     display:block;
 }
-.menu{
-    display: none;
+
+.menu {
+    width: 195px;
     list-style-type: none;
     padding: 0;
-    margin: 0;
-}
-.menu li{
-    margin: 0;
-    padding: 0;
+    background-color: rgb(88, 81, 81);
 }
 
-.menu li div:hover{
-    background-color: rgb(63, 63, 63);
+.menu li {
+  text-align: center;
+  display: inline-block;
 }
-.menu a::before{
-    margin: 0;
-    padding: 0;
+
+.menu li:hover {
+    background-color: rgb(15, 14, 14);
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding : 1rem 1.3rem;
+    width: 140px;
+}
+
+.menu li::before {
+   
     font-size: 0.8rem;
     content: "\e5c3";
     font-family: 'Material Symbols Outlined';
 }
-.menu a{
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    color:white
-}
-.menu .child{
-    background-color: rgb(191, 191, 191);
-    display:inline-block;
-    min-width: 120px;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-}
+

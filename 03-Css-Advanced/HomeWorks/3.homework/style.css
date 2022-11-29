@@ -1,10 +1,153 @@
 .baslik{
     background-color: rgb(56, 52, 52);
-    color: aliceblue;
+    color: rgb(242, 244, 247);
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.baslik td:nth-child(2){
+    width: 150px;
+}
+
+.baslik td:nth-child(3){
+    text-align: center;
+}
+.baslik td:nth-child(4){
+    text-align: right;
+    width: 50px;
+}
+.baslik td:nth-child(5){
+    text-align: right;
+    width: 50px;
+}
+.baslik td:nth-child(6){
+    text-align: center;
+}
+
+.baslik:hover{
+    background-color: rgba(116, 102, 102, 0.849);
+    color:black;
+
 }
 .ciftsatir{
     background-color: rgb(190, 190, 190);
+  
+}
+.ciftsatir td{
+    text-align: left;
+   
+}
+.ciftsatir td:nth-child(3){
+    text-align: center;
+}
+.ciftsatir td:nth-child(4){
+    text-align: right;
+}
+.ciftsatir td:nth-child(5){
+    text-align: right;
+}
+.ciftsatir td:nth-child(6){
+    text-align: center;
+}
+
+.ciftsatir:hover{
+    background-color: black;
+    color:whitesmoke;
 }
 .teksatir{
     background-color: rgb(230, 230, 230);
 }
+.teksatir td{
+    text-align: left;
+}
+.teksatir td:nth-child(3){
+    text-align: center;
+}
+.teksatir td:nth-child(4){
+    text-align: right;
+}
+.teksatir td:nth-child(5){
+    text-align: right;
+}
+.teksatir td:nth-child(6){
+    text-align: center;
+}
+.teksatir:hover{
+    background-color: rgb(189, 111, 111);
+    color:whitesmoke;
+}
+.fa-sharp{
+    padding-right: 5px;
+    
+  }
+  
+.sonsatir:only-child{
+    background-color: rgb(56, 52, 52);
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.sonsatir:only-child:hover{
+   background-color:rgba(116, 102, 102, 0.849);
+    color:black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    display: inline-block;
+    text-align: right;
+}
+.buton{
+    margin-top: 10px;
+    
+}
+
+.alisveris{
+    text-align: right;
+    padding: 10px 5px; 
+    background-color: rgb(255, 86, 64);
+    color:whitesmoke;
+    border: 1.2px solid rgb(255, 86, 64);
+    font-weight: bold;
+
+}
+.alisveris:hover{
+    text-align: right;
+      padding: 10px 5px;
+    background-color:rgb(165, 126, 40);
+    color:black;
+    border: 1.2px solid rgb(165, 126, 40);
+
+}
+.alisveris::before{
+    content: "\f07a";
+    font: var(--fa-font-solid);
+    text-align: right; 
+    color: black; 
+}
+
+.creditcart{
+    text-align: right;
+    padding: 10px 5px;
+    background-color: rgb(255, 86, 64);
+    color:whitesmoke;
+    border: 1.2px solid rgb(255, 86, 64);
+    font-weight: bold;
+}
+.creditcart:hover{
+    text-align: right;
+    padding: 10px 5px;
+    background-color:rgb(165, 126, 40);
+    color:black;
+    border: 1.2px solid rgb(165, 126, 40);
+ 
+}
+.creditcart::before{
+    content: "\f09d";
+    font: var(--fa-font-solid);
+    text-align: left; 
+    color: black; 
+}
+
+  
