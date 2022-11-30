@@ -22,16 +22,16 @@
         <table>
             <thead>
                 <tr class="baslik">
-                    <td>Urun<br>Kodu</td>
-                    <td>Urun Adi</td>
-                    <td>Miktar</td>
-                    <td>Birim<br>Fiyat</td>
-                    <td>Ara<br>Toplam</td>
-                    <td></td>
+                    <th>Urun<br>Kodu</th>
+                    <th>Urun Adi</th>
+                    <th>Miktar</th>
+                    <th>Birim<br>Fiyat</th>
+                    <th>Ara<br>Toplam</th>
+                    <th></th>
                 </tr>
             </thead>
-            <tbody>
-                <tr class="ciftsatir">
+            <tbody class="mother">
+                <tr>
                     <td>154654</td>
                     <td>Notebook</td>
                     <td>1</td>
@@ -41,7 +41,7 @@
                             class="fa-regular fa-trash-can"></i>
                     </td>
                 </tr>
-                <tr class="teksatir">
+                <tr >
                     <td>456466</td>
                     <td>Klavye</td>
                     <td>2</td>
@@ -51,7 +51,7 @@
                         <i class="fa-regular fa-trash-can">
                     </td>
                 </tr>
-                <tr class="ciftsatir">
+                <tr >
                     <td>564646</td>
                     <td>Monitor</td>
                     <td>1</td>
@@ -61,7 +61,7 @@
                         <i class="fa-regular fa-trash-can"></i>
                     </td>
                 </tr>
-                <tr class="teksatir">
+                <tr>
                     <td>123568</td>
                     <td>Mouse</td>
                     <td>2</td>
@@ -71,7 +71,7 @@
                         <i class="fa-regular fa-trash-can"></i>
                     </td>
                 </tr>
-                <tr class="ciftsatir">
+                <tr>
                     <td>613448</td>
                     <td>Play Station</td>
                     <td>1</td>
@@ -81,7 +81,7 @@
                         <i class="fa-regular fa-trash-can"></i>
                     </td>
                 </tr>
-                <tr class="teksatir">
+                <tr>
                     <td>789799</td>
                     <td>Usb Bellek</td>
                     <td>3</td>
@@ -91,11 +91,11 @@
                         <i class="fa-regular fa-trash-can"></i>
                     </td>
                 </tr>
-            <tfoot>
-                <tr class="sonsatir">
-                    <td colspan="4">TOPLAM</td>
-                    <td>9.220₺</td>
-                    <td></td>
+            <tfoot class="father">
+                <tr>
+                    <th colspan="4">TOPLAM</th>
+                    <th>9.220₺</th>
+                    <th></th>
                 </tr>
             </tfoot>
 
@@ -103,8 +103,8 @@
             </tbody>
         </table>
         <div class="buton">
-            <button class="alisveris"> &nbsp; Alısverise Devam</button>
-            <button class="creditcart"> &nbsp; Odemeye Gec</button>
+            <button> &nbsp; Alısverise Devam</button>
+            <button> &nbsp; Odemeye Gec</button>
         </div>
     </div>
 
