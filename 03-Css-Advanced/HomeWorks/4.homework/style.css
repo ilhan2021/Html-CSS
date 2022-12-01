@@ -1,53 +1,65 @@
+html,
 body {
     height: 100%;
     width: 100%;
-    background-color: #5E4A6F
-  }
-.border{
-    background-color: #EBE9EE ;
+    background-color: #422759;
+}
+.cerceve{
+    width: 1000px;
+    height: 550px;
     display: flex;
+    background-color: aqua;
 }
-.leftt{
-    flex:40%
+.veriler{
+    flex: 40%;
+    background-color: #f7f7f9;
 }
-.leftt::before{
-    content: "\f137";
-    font:var(--fa-font-solid);
-}
-.right{
-    flex:60%;
-    background-image: url("../4.homework/bg-login.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-color:#e90a6f ;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+.resim{
+    flex: 60%;
+    display:flex;
     justify-content: center;
-    font-size: 2rem;
-    position: relative;
-    opacity: 1.5;
-}
-.right::after{
-    content: "";
-    position: absolute;
-    top:0; left:0; right:0; bottom:0;
-    opacity: 0.3;
-}
-.right h2{
-    z-index: 1;
-    color: white;
-    padding: 0;
-    margin: 0;
+    align-items: center;
+    background-color: green;
+    background-image: url("bg-login.jpg");
+    background-size: cover; 
+    color:#fff2fe;
 
 }
-
-.right h5{
-    z-index: 1;
-    color:white;
-    margin: 0;
-    padding: 0;
-}
-div{
+.h-yazi{
     text-align: center;
+    padding:0;
+}
+ 
+.h-yazi h1{
+    margin: 0;
+    font-size: 3rem;;
+}
+.h-yazi h3{
+    margin: 0;
+}
+.veriler{
+    display:flex;
+}
+.veriler .form{
+    justify-content: center;
+    align-items: center;
+}
+form :only-child{
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-left-style: hidden;
+}
+.veriler .buton{
+    display: flex;
+    align-items: flex-end;
+}
+.veriler a{
+    text-decoration: none;
+    color: gray;
+}
+.veriler a::before{
+    content: "\f137";
+    font: var(--fa-font-solid);
+    font-size: 0.8rem;
+    margin-right: 10px;
 }
