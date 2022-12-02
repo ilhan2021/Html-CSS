@@ -1,65 +1,114 @@
+:root{
+    --color1:rgb(66, 39, 89);
+    --color2: rgb(247, 247, 249);
+    --color3: rgb(255, 242, 254);
+    --color4: rgb(127, 127, 127);
+}
+
 html,
 body {
     height: 100%;
     width: 100%;
-    background-color: #422759;
-}
-.cerceve{
-    width: 1000px;
-    height: 550px;
+    margin: 0;
+    padding: 0;
+    background-color:var(--color1);
     display: flex;
-    background-color: aqua;
+    justify-content: center;
+    align-items: center;
 }
-.veriler{
-    flex: 40%;
-    background-color: #f7f7f9;
+.mother{
+    width: 200vh;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    padding: 0;
 }
-.resim{
-    flex: 60%;
-    display:flex;
+.right-box{
+    background-color: var(--color2);
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    display: flex ;
+    flex-wrap: wrap;
+    min-height: 100px;
+    flex:40%;
+       
+}
+
+.left-box{
     justify-content: center;
     align-items: center;
     background-color: green;
-    background-image: url("bg-login.jpg");
+    background-image: url("../4.homework/bg-login.jpg");
     background-size: cover; 
-    color:#fff2fe;
+    color:rgb(255, 242, 254);
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    display: flex;
+    flex-wrap:wrap;    
+    min-height: 300px;
+    flex:60%;
+ 
+    
 
 }
-.h-yazi{
+.text-image{
     text-align: center;
     padding:0;
 }
  
-.h-yazi h1{
+.text-image h1{
     margin: 0;
     font-size: 3rem;;
 }
-.h-yazi h3{
+.text-image h3{
     margin: 0;
 }
-.veriler{
-    display:flex;
-}
-.veriler .form{
+
+
+.mother .sing-in{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-left: 0;
 }
-form :only-child{
-    border-top-style: hidden;
-    border-left-style: hidden;
-    border-left-style: hidden;
+.mother form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
 }
-.veriler .buton{
-    display: flex;
-    align-items: flex-end;
-}
-.veriler a{
+.mother a{
     text-decoration: none;
-    color: gray;
+    color:var(--color4);
 }
-.veriler a::before{
+.mother a::before{
     content: "\f137";
     font: var(--fa-font-solid);
     font-size: 0.8rem;
     margin-right: 10px;
+}
+.mother .sing-in input{
+  background-color: var(--color2);
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom: 2px solid var(--color1);
+}
+.mother .sing-in button{
+  background-color:var(--color1);
+  color: white;
+  padding: 1rem 3rem;
+  border: none;
+  margin: 0;
+  margin-top: 4rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+.mother .sing-in button:hover{
+  background-color: rgb(88, 53, 119);
 }
