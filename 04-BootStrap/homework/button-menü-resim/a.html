@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @charset "UTF-8";
+
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 20px 0 0 20px;
+    }
+
+    input[type=checkbox] {
+        display: none;
+    }
+
+    input[type=checkbox]:checked~label {
+        background-color: #f2bb67;
+    }
+
+    input[type=checkbox]:checked~label:after {
+        content: "Gizle";
+    }
+
+    input[type=checkbox]:checked~.icerik {
+        max-height: 500px;
+    }
+
+    label {
+        background-color: #7cc086;
+        border: 0;
+        width: 50px;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 3px;
+        font-size: 11px;
+        cursor: pointer;
+        display: inline-block;
+        width: 60px;
+        text-align: center;
+    }
+
+    label:after {
+        content: "Göster";
+    }
+
+    .icerik {
+        margin-top: 20px;
+        max-height: 0;
+        transition: all 500ms ease;
+        overflow: hidden;
+        width: 100%;
+        
+    }
+
+  
+
+    .icerik img {
+        margin: 10px 20px 20px 20px;
+        line-height: 1.3em;
+    
+    }
+
+    .col{
+        margin-left: 10rem;
+    }
+
+</style>
+
+<body>
+    <div class="container col-12">
+        <input class="cars" type="checkbox" name="gizleGoster" id="gizleGoster" />
+        <label for="gizleGoster"></label><br>
+        <input class="manzara" type="checkbox" name="gizleGoster2" id="gizleGoster2" />
+        <label for="gizleGoster2"></label>
+        <input class="spor" type="checkbox3" name="gizleGoster3" id="gizleGoster3" />
+        <label for="gizleGoster3"></label>
+       
+    <div class="icerik">
+        
+        <div class="col ml-15 ">
+        <img src="../button-menü-resim/Yeni klasör/a1.jpg" alt="">
+        <img src="../button-menü-resim/Yeni klasör/a2.jpg" alt="">
+        <img src="../button-menü-resim/Yeni klasör/a3.jpg" alt="">
+        <img src="../button-menü-resim/Yeni klasör/a4.jpg" alt="">
+    </div>
+    </div></div>
+    
+</body>
+
+</html>
